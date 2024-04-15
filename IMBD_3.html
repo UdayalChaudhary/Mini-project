@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Trailer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("background.png");
+            background-size: cover;
+            background-position: center;
+        }
+        .video-container {
+            width: 50%;
+            margin-right: 20px;
+        }
+        .info-container {
+            width: 50%;
+            padding: 20px;
+            background-color: #fff;
+            text-align: left; /* Center align the content */
+        }
+        .service-container {
+            display: flex;
+            align-items: center;
+            justify-content: left; /* Center align the service icons */
+        }
+        .service-container a {
+            margin-right: 10px;
+        }
+        .service-container img {
+            height: 70px;
+            width: 70px;
+        }
+        .movie-poster {
+            max-width: 20%;
+            height: 150;
+            margin-bottom: 10px; /* Add margin below the poster */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <iframe width="100%" height="400" src="/Users/udayalchaudhary/Documents/HTML web programing codes/HTML_imdb/trailer thor ragnarock.mov" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="info-container">
+            <img src="/Users/udayalchaudhary/Documents/HTML web programing codes/Movie posters/Thor Ragnarok.png" alt="Thor: Ragnarok Poster" class="movie-poster">
+            <h2>Thor: Ragnarok</h2>
+            <p><b>Description: </b>Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.</p>
+            <p><b>IMDb Rating: </b>7.9/10</p>
+            <p><b>Like: </b>95% | <b>Dislike:</b> 5%</p>
+            <p><b>Streaming on:</b></p>
+            <div class="service-container">
+                <a href="https://www.hotstar.com/in/movies/thor-ragnarok/1660010577">
+                    <img src="hotstar.png" alt="Hotstar"></a>
+                <a href="https://tv.apple.com/in/movie/thor-ragnarok/umc.cmc.5f4fq6k3njmustywcg5jld7im">
+                    <img src="/Users/udayalchaudhary/Documents/HTML web programing codes/HTML_imdb/apple tv.png" alt="Apple TV"></a>
+                <a href="https://play.google.com/store/movies/details/Thor_Ragnarok?id=P3TqyiC_P8U&hl=en_IN&gl=US">
+                    <img src="/Users/udayalchaudhary/Documents/HTML web programing codes/HTML_imdb/google play.png" alt="Google Play"></a>
+                <a href="https://www.primevideo.com/detail/Thor-Ragnarok-Theatrical-Version/0HSX3MMRMNNNS8BCY1JNE23LPL">
+                    <img src="/Users/udayalchaudhary/Documents/HTML web programing codes/HTML_imdb/Amazon prime.png" alt="Amazon Prime"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

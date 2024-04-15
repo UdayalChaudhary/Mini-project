@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Movie Details</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #000; 
+        color: #fff; 
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        overflow: hidden; 
+    }
+    .video-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; 
+    }
+    .info-container {
+        max-width: 800px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.7); 
+    }
+    .service-container {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .service-container a {
+        margin-right: 10px;
+    }
+    .service-container img {
+        height: 50px;
+        width: auto;
+    }
+    .poster {
+        max-width: 200px;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <video class="video-container" src="/Users/udayalchaudhary/Documents/HTML web programing codes/HTML_imdb/justice league trailer .mov" autoplay loop></video>
+        <div class="info-container">
+            <img class="poster" src="/Users/udayalchaudhary/Documents/HTML web programing codes/Movie posters/Justice League.png" height="200" width="150">
+            <h1>Justice League</h1>
+            <p><strong>Description:</strong> Fueled by his restored faith in humanity and inspired by Superman's selfless act, Bruce Wayne enlists the help of his new-found ally, Diana Prince, to face an even greater enemy.</p>
+            <p><strong>IMDb Rating:</strong> 6.1/10</p>
+            <p><strong>Streaming on:</strong></p>
+        <div class="service-container">
+                <a href="https://tv.apple.com/in/movie/justice-league/umc.cmc.7e35l2bwmzmu47u82nq3fe9e6">
+                    <img src="/Users/udayalchaudhary/Documents/HTML web programing codes/HTML_imdb/apple tv.png" alt="Apple TV"></a>
+                <a href="https://play.google.com/store/movies/details/Justice_League?id=kdLh4WQ2RVo">
+                    <img src="/Users/udayalchaudhary/Documents/HTML web programing codes/HTML_imdb/google play.png" alt="Google Play"></a>
+                <a href="https://www.primevideo.com/detail/Justice-League/0OXFUM514KY71Y1XUQ4RDYUI06">
+                    <img src="/Users/udayalchaudhary/Documents/HTML web programing codes/HTML_imdb/Amazon prime.png" alt="Amazon Prime"></a>
+                <a href="https://www.netflix.com/title/80187362">
+                    <img src="/Users/udayalchaudhary/Documents/HTML web programing codes/HTML_imdb/netflix.png" height="70" width="70"></a>
+        </div
+        <h2>Cast</h2>
+        <ul>
+            <li>Chris Hemsworth as Thor</li>
+            <li>Tom Hiddleston as Loki</li>
+            <li>Cate Blanchett as Hela</li>
+            <li>Ben Affleck as Batman</li>
+            <li>Gal Gadot as Wonder Woman</li>
+            <li>Jason Momoa as Aquaman</li>
+            <li>Ezra Miller as The Flash</li>
+            <li>Henry Cavill as Superman</li>
+            <li>Amy Adams as Lois Lane</li>
+            <li>Ray Fisher as Cyborg</li>
+            <li>Jeremy Irons as Alfred</li><p>and many more...</p>
+        </ul>
+        <p><strong>Director:</strong> Zack Snyder</p>
+
+    </div>
+</div>
+</body>
+</html>
